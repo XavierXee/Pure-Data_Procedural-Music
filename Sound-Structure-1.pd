@@ -1,0 +1,11 @@
+#N canvas 0 23 1440 855 12;
+#X obj 324 137 random_note;
+#X obj 319 35 transport;
+#X obj 469 384 dac~;
+#X obj 546 185 127;
+#X obj 578 300 polyblip;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 3 0 4 1;
+#X connect 4 0 2 0;
+#X connect 4 0 2 1;
